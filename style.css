@@ -60,4 +60,61 @@
       margin-top: 20%;
   }
      
-    
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(191, 128, 250);
+    color: white;
+}
+
+input {
+    background-color: #410658;
+    border-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: solid 5px orangered;
+    color: white;
+    font-size: large;
+    margin-top: 15px;
+    border-radius:15px 50px 30px 5px;
+}
+
+.search{
+    background-color: #eeff00f5;
+    border-style: none;
+    border-radius: 15px;
+    width: 60px;
+    border-radius: 15px 50px 30px 5px;
+}
+
+.app-wrap {
+    height: 30vh;
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.city {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.temp {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.weather {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
